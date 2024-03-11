@@ -1,4 +1,4 @@
-import 'package:tokens_generator/tokens_generator.dart';
+import 'dart:ui';
 
 abstract class CDSThemeColors {
   Color get background;
