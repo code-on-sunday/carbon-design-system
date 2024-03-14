@@ -30,3 +30,72 @@ class MainApp extends StatelessWidget {
     );
   }
 }
+
+class DeclarativeContainer extends StatelessWidget {
+  const DeclarativeContainer(
+      {super.key,
+      this.constraints,
+      this.alignment,
+      this.padding,
+      this.color,
+      this.child});
+
+  final BoxConstraints? constraints;
+  final Alignment? alignment;
+  final EdgeInsets? padding;
+  final Color? color;
+  final Widget? child;
+
+  @override
+  Widget build(BuildContext context) {
+    return ConditionalExpressionWidget(
+      condition: color != null,
+      whenTrue: ColoredBox(
+        color: color!,
+        child: _anonymousLevel1,
+      ),
+      whenFalse: _anonymousLevel1,
+    );
+  }
+
+  Widget get _anonymousLevel1 => ConditionalExpressionWidget(
+        condition: padding != null,
+        whenTrue: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: _anonymousLevel2,
+        ),
+        whenFalse: _anonymousLevel2,
+      );
+
+  Widget get _anonymousLevel2 => ConditionalExpressionWidget(
+        condition:
+            child == null && (constraints == null || !constraints!.isTight),
+        whenTrue: LimitedBox(
+          maxWidth: 0,
+          maxHeight: 0,
+          child: ConstrainedBox(
+            constraints: const BoxConstraints.expand(),
+          ),
+        ),
+        whenFalse: ConditionalExpressionWidget(
+          condition: alignment != null,
+          whenTrue: Align(
+            alignment: alignment!,
+          ),
+        ),
+      );
+}
+
+class ConditionalExpressionWidget extends StatelessWidget {
+  const ConditionalExpressionWidget(
+      {super.key, required this.condition, this.whenTrue, this.whenFalse});
+
+  final bool condition;
+  final Widget? whenTrue;
+  final Widget? whenFalse;
+
+  @override
+  Widget build(BuildContext context) {
+    return condition ? whenTrue! : whenFalse!;
+  }
+}

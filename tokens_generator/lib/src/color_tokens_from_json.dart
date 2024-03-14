@@ -13,7 +13,7 @@ class Color {
 
   @override
   String toString() {
-    return 'Color.fromARGB(${(r * 255).toInt()}, ${(g * 255).toInt()}, ${(b * 255).toInt()}, ${(a * 255).toInt()})';
+    return 'const Color.fromARGB(${(a * 255).toInt()}, ${(r * 255).toInt()}, ${(g * 255).toInt()}, ${(b * 255).toInt()})';
   }
 }
 
@@ -153,6 +153,8 @@ String createThemeInterfaceFromThemeColor(ThemeColor themeColor) {
   final themeColorMap = themeColor.colors;
 
   final themeInterface = '''
+// ignore_for_file: public_member_api_docs
+
 import 'dart:ui';
 
 abstract class CDSThemeColors {
@@ -168,10 +170,14 @@ String createThemeClassThatImplementsThemeInterface(ThemeColor themeColor) {
   final themeColorMap = themeColor.colors;
 
   final themeClass = '''
+// ignore_for_file: public_member_api_docs
+
 import 'dart:ui';
-import 'theme_colors.dart';
+import 'package:carbon_design_system/colors/theme_colors.dart';
 
 class ${themeColor.name.replaceAll(" ", "")}Colors implements CDSThemeColors {
+  const ${themeColor.name.replaceAll(" ", "")}Colors();
+
 ${themeColorMap.entries.map((entry) => '  @override\n  Color get ${entry.key} => ${entry.value};').join('\n')}
 }
 ''';

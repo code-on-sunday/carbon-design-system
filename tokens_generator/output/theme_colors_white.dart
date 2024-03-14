@@ -1,557 +1,561 @@
+// ignore_for_file: public_member_api_docs
+
 import 'dart:ui';
-import 'theme_colors.dart';
+import 'package:carbon_design_system/colors/theme_colors.dart';
 
 class WhiteThemeColors implements CDSThemeColors {
+  const WhiteThemeColors();
+
   @override
-  Color get background => Color.fromARGB(255, 255, 255, 255);
+  Color get background => const Color.fromARGB(255, 255, 255, 255);
   @override
-  Color get backgroundHover => Color.fromARGB(141, 141, 141, 30);
+  Color get backgroundHover => const Color.fromARGB(30, 141, 141, 141);
   @override
-  Color get backgroundActive => Color.fromARGB(141, 141, 141, 127);
+  Color get backgroundActive => const Color.fromARGB(127, 141, 141, 141);
   @override
-  Color get backgroundSelected => Color.fromARGB(141, 141, 141, 51);
+  Color get backgroundSelected => const Color.fromARGB(51, 141, 141, 141);
   @override
-  Color get backgroundSelectedHover => Color.fromARGB(141, 141, 141, 81);
+  Color get backgroundSelectedHover => const Color.fromARGB(81, 141, 141, 141);
   @override
-  Color get backgroundInverse => Color.fromARGB(57, 57, 57, 255);
+  Color get backgroundInverse => const Color.fromARGB(255, 57, 57, 57);
   @override
-  Color get backgroundInverseHover => Color.fromARGB(71, 71, 71, 255);
+  Color get backgroundInverseHover => const Color.fromARGB(255, 71, 71, 71);
   @override
-  Color get backgroundBrand => Color.fromARGB(15, 98, 254, 255);
+  Color get backgroundBrand => const Color.fromARGB(255, 15, 98, 254);
   @override
-  Color get layer01 => Color.fromARGB(244, 244, 244, 255);
+  Color get layer01 => const Color.fromARGB(255, 244, 244, 244);
   @override
-  Color get layer02 => Color.fromARGB(255, 255, 255, 255);
+  Color get layer02 => const Color.fromARGB(255, 255, 255, 255);
   @override
-  Color get layer03 => Color.fromARGB(244, 244, 244, 255);
+  Color get layer03 => const Color.fromARGB(255, 244, 244, 244);
   @override
-  Color get layerHover01 => Color.fromARGB(232, 232, 232, 255);
+  Color get layerHover01 => const Color.fromARGB(255, 232, 232, 232);
   @override
-  Color get layerHover02 => Color.fromARGB(232, 232, 232, 255);
+  Color get layerHover02 => const Color.fromARGB(255, 232, 232, 232);
   @override
-  Color get layerHover03 => Color.fromARGB(232, 232, 232, 255);
+  Color get layerHover03 => const Color.fromARGB(255, 232, 232, 232);
   @override
-  Color get layerActive01 => Color.fromARGB(198, 198, 198, 255);
+  Color get layerActive01 => const Color.fromARGB(255, 198, 198, 198);
   @override
-  Color get layerActive02 => Color.fromARGB(198, 198, 198, 255);
+  Color get layerActive02 => const Color.fromARGB(255, 198, 198, 198);
   @override
-  Color get layerActive03 => Color.fromARGB(198, 198, 198, 255);
+  Color get layerActive03 => const Color.fromARGB(255, 198, 198, 198);
   @override
-  Color get layerSelected01 => Color.fromARGB(224, 224, 224, 255);
+  Color get layerSelected01 => const Color.fromARGB(255, 224, 224, 224);
   @override
-  Color get layerSelected02 => Color.fromARGB(224, 224, 224, 255);
+  Color get layerSelected02 => const Color.fromARGB(255, 224, 224, 224);
   @override
-  Color get layerSelected03 => Color.fromARGB(224, 224, 224, 255);
+  Color get layerSelected03 => const Color.fromARGB(255, 224, 224, 224);
   @override
-  Color get layerSelectedHover01 => Color.fromARGB(209, 209, 209, 255);
+  Color get layerSelectedHover01 => const Color.fromARGB(255, 209, 209, 209);
   @override
-  Color get layerSelectedHover02 => Color.fromARGB(209, 209, 209, 255);
+  Color get layerSelectedHover02 => const Color.fromARGB(255, 209, 209, 209);
   @override
-  Color get layerSelectedHover03 => Color.fromARGB(209, 209, 209, 255);
+  Color get layerSelectedHover03 => const Color.fromARGB(255, 209, 209, 209);
   @override
-  Color get layerSelectedInverse => Color.fromARGB(22, 22, 22, 255);
+  Color get layerSelectedInverse => const Color.fromARGB(255, 22, 22, 22);
   @override
-  Color get layerSelectedDisabled => Color.fromARGB(141, 141, 141, 255);
+  Color get layerSelectedDisabled => const Color.fromARGB(255, 141, 141, 141);
   @override
-  Color get layerAccent01 => Color.fromARGB(224, 224, 224, 255);
+  Color get layerAccent01 => const Color.fromARGB(255, 224, 224, 224);
   @override
-  Color get layerAccent02 => Color.fromARGB(224, 224, 224, 255);
+  Color get layerAccent02 => const Color.fromARGB(255, 224, 224, 224);
   @override
-  Color get layerAccent03 => Color.fromARGB(224, 224, 224, 255);
+  Color get layerAccent03 => const Color.fromARGB(255, 224, 224, 224);
   @override
-  Color get layerAccentHover01 => Color.fromARGB(209, 209, 209, 255);
+  Color get layerAccentHover01 => const Color.fromARGB(255, 209, 209, 209);
   @override
-  Color get layerAccentHover02 => Color.fromARGB(209, 209, 209, 255);
+  Color get layerAccentHover02 => const Color.fromARGB(255, 209, 209, 209);
   @override
-  Color get layerAccentHover03 => Color.fromARGB(209, 209, 209, 255);
+  Color get layerAccentHover03 => const Color.fromARGB(255, 209, 209, 209);
   @override
-  Color get layerAccentActive01 => Color.fromARGB(168, 168, 168, 255);
+  Color get layerAccentActive01 => const Color.fromARGB(255, 168, 168, 168);
   @override
-  Color get layerAccentActive02 => Color.fromARGB(168, 168, 168, 255);
+  Color get layerAccentActive02 => const Color.fromARGB(255, 168, 168, 168);
   @override
-  Color get layerAccentActive03 => Color.fromARGB(168, 168, 168, 255);
+  Color get layerAccentActive03 => const Color.fromARGB(255, 168, 168, 168);
   @override
-  Color get field01 => Color.fromARGB(244, 244, 244, 255);
+  Color get field01 => const Color.fromARGB(255, 244, 244, 244);
   @override
-  Color get field02 => Color.fromARGB(255, 255, 255, 255);
+  Color get field02 => const Color.fromARGB(255, 255, 255, 255);
   @override
-  Color get field03 => Color.fromARGB(244, 244, 244, 255);
+  Color get field03 => const Color.fromARGB(255, 244, 244, 244);
   @override
-  Color get fieldHover01 => Color.fromARGB(232, 232, 232, 255);
+  Color get fieldHover01 => const Color.fromARGB(255, 232, 232, 232);
   @override
-  Color get fieldHover02 => Color.fromARGB(232, 232, 232, 255);
+  Color get fieldHover02 => const Color.fromARGB(255, 232, 232, 232);
   @override
-  Color get fieldHover03 => Color.fromARGB(232, 232, 232, 255);
+  Color get fieldHover03 => const Color.fromARGB(255, 232, 232, 232);
   @override
-  Color get borderSubtle00 => Color.fromARGB(224, 224, 224, 255);
+  Color get borderSubtle00 => const Color.fromARGB(255, 224, 224, 224);
   @override
-  Color get borderSubtle01 => Color.fromARGB(198, 198, 198, 255);
+  Color get borderSubtle01 => const Color.fromARGB(255, 198, 198, 198);
   @override
-  Color get borderSubtle02 => Color.fromARGB(224, 224, 224, 255);
+  Color get borderSubtle02 => const Color.fromARGB(255, 224, 224, 224);
   @override
-  Color get borderSubtle03 => Color.fromARGB(198, 198, 198, 255);
+  Color get borderSubtle03 => const Color.fromARGB(255, 198, 198, 198);
   @override
-  Color get borderSubtleSelected01 => Color.fromARGB(198, 198, 198, 255);
+  Color get borderSubtleSelected01 => const Color.fromARGB(255, 198, 198, 198);
   @override
-  Color get borderSubtleSelected02 => Color.fromARGB(198, 198, 198, 255);
+  Color get borderSubtleSelected02 => const Color.fromARGB(255, 198, 198, 198);
   @override
-  Color get borderSubtleSelected03 => Color.fromARGB(198, 198, 198, 255);
+  Color get borderSubtleSelected03 => const Color.fromARGB(255, 198, 198, 198);
   @override
-  Color get borderStrong01 => Color.fromARGB(141, 141, 141, 255);
+  Color get borderStrong01 => const Color.fromARGB(255, 141, 141, 141);
   @override
-  Color get borderStrong02 => Color.fromARGB(141, 141, 141, 255);
+  Color get borderStrong02 => const Color.fromARGB(255, 141, 141, 141);
   @override
-  Color get borderStrong03 => Color.fromARGB(141, 141, 141, 255);
+  Color get borderStrong03 => const Color.fromARGB(255, 141, 141, 141);
   @override
-  Color get borderTile01 => Color.fromARGB(198, 198, 198, 255);
+  Color get borderTile01 => const Color.fromARGB(255, 198, 198, 198);
   @override
-  Color get borderTile02 => Color.fromARGB(168, 168, 168, 255);
+  Color get borderTile02 => const Color.fromARGB(255, 168, 168, 168);
   @override
-  Color get borderTile03 => Color.fromARGB(198, 198, 198, 255);
+  Color get borderTile03 => const Color.fromARGB(255, 198, 198, 198);
   @override
-  Color get borderInverse => Color.fromARGB(22, 22, 22, 255);
+  Color get borderInverse => const Color.fromARGB(255, 22, 22, 22);
   @override
-  Color get borderDisabled => Color.fromARGB(198, 198, 198, 255);
+  Color get borderDisabled => const Color.fromARGB(255, 198, 198, 198);
   @override
-  Color get borderInteractive => Color.fromARGB(15, 98, 254, 255);
+  Color get borderInteractive => const Color.fromARGB(255, 15, 98, 254);
   @override
-  Color get textPrimary => Color.fromARGB(22, 22, 22, 255);
+  Color get textPrimary => const Color.fromARGB(255, 22, 22, 22);
   @override
-  Color get textSecondary => Color.fromARGB(82, 82, 82, 255);
+  Color get textSecondary => const Color.fromARGB(255, 82, 82, 82);
   @override
-  Color get textPlaceholder => Color.fromARGB(168, 168, 168, 255);
+  Color get textPlaceholder => const Color.fromARGB(255, 168, 168, 168);
   @override
-  Color get textOnColor => Color.fromARGB(255, 255, 255, 255);
+  Color get textOnColor => const Color.fromARGB(255, 255, 255, 255);
   @override
-  Color get textOnColorDisabled => Color.fromARGB(141, 141, 141, 255);
+  Color get textOnColorDisabled => const Color.fromARGB(255, 141, 141, 141);
   @override
-  Color get textHelper => Color.fromARGB(111, 111, 111, 255);
+  Color get textHelper => const Color.fromARGB(255, 111, 111, 111);
   @override
-  Color get textError => Color.fromARGB(218, 30, 40, 255);
+  Color get textError => const Color.fromARGB(255, 218, 30, 40);
   @override
-  Color get textInverse => Color.fromARGB(255, 255, 255, 255);
+  Color get textInverse => const Color.fromARGB(255, 255, 255, 255);
   @override
-  Color get textDisabled => Color.fromARGB(22, 22, 22, 63);
+  Color get textDisabled => const Color.fromARGB(63, 22, 22, 22);
   @override
-  Color get linkPrimary => Color.fromARGB(15, 98, 254, 255);
+  Color get linkPrimary => const Color.fromARGB(255, 15, 98, 254);
   @override
-  Color get linkPrimaryHover => Color.fromARGB(0, 67, 206, 255);
+  Color get linkPrimaryHover => const Color.fromARGB(255, 0, 67, 206);
   @override
-  Color get linkSecondary => Color.fromARGB(0, 67, 206, 255);
+  Color get linkSecondary => const Color.fromARGB(255, 0, 67, 206);
   @override
-  Color get linkInverse => Color.fromARGB(120, 169, 255, 255);
+  Color get linkInverse => const Color.fromARGB(255, 120, 169, 255);
   @override
-  Color get linkVisited => Color.fromARGB(138, 63, 252, 255);
+  Color get linkVisited => const Color.fromARGB(255, 138, 63, 252);
   @override
-  Color get iconPrimary => Color.fromARGB(22, 22, 22, 255);
+  Color get iconPrimary => const Color.fromARGB(255, 22, 22, 22);
   @override
-  Color get iconSecondary => Color.fromARGB(82, 82, 82, 255);
+  Color get iconSecondary => const Color.fromARGB(255, 82, 82, 82);
   @override
-  Color get iconOnColor => Color.fromARGB(255, 255, 255, 255);
+  Color get iconOnColor => const Color.fromARGB(255, 255, 255, 255);
   @override
-  Color get iconOnColorDisabled => Color.fromARGB(141, 141, 141, 255);
+  Color get iconOnColorDisabled => const Color.fromARGB(255, 141, 141, 141);
   @override
-  Color get iconInteractive => Color.fromARGB(15, 98, 254, 255);
+  Color get iconInteractive => const Color.fromARGB(255, 15, 98, 254);
   @override
-  Color get iconInverse => Color.fromARGB(255, 255, 255, 255);
+  Color get iconInverse => const Color.fromARGB(255, 255, 255, 255);
   @override
-  Color get iconDisabled => Color.fromARGB(22, 22, 22, 63);
+  Color get iconDisabled => const Color.fromARGB(63, 22, 22, 22);
   @override
-  Color get buttonPrimary => Color.fromARGB(15, 98, 254, 255);
+  Color get buttonPrimary => const Color.fromARGB(255, 15, 98, 254);
   @override
-  Color get buttonPrimaryHover => Color.fromARGB(0, 80, 230, 255);
+  Color get buttonPrimaryHover => const Color.fromARGB(255, 0, 80, 230);
   @override
-  Color get buttonPrimaryActive => Color.fromARGB(0, 45, 156, 255);
+  Color get buttonPrimaryActive => const Color.fromARGB(255, 0, 45, 156);
   @override
-  Color get buttonSecondary => Color.fromARGB(57, 57, 57, 255);
+  Color get buttonSecondary => const Color.fromARGB(255, 57, 57, 57);
   @override
-  Color get buttonSecondaryHover => Color.fromARGB(71, 71, 71, 255);
+  Color get buttonSecondaryHover => const Color.fromARGB(255, 71, 71, 71);
   @override
-  Color get buttonSecondaryActive => Color.fromARGB(111, 111, 111, 255);
+  Color get buttonSecondaryActive => const Color.fromARGB(255, 111, 111, 111);
   @override
-  Color get buttonTertiary => Color.fromARGB(15, 98, 254, 255);
+  Color get buttonTertiary => const Color.fromARGB(255, 15, 98, 254);
   @override
-  Color get buttonTertiaryHover => Color.fromARGB(0, 80, 230, 255);
+  Color get buttonTertiaryHover => const Color.fromARGB(255, 0, 80, 230);
   @override
-  Color get buttonTertiaryActive => Color.fromARGB(0, 45, 156, 255);
+  Color get buttonTertiaryActive => const Color.fromARGB(255, 0, 45, 156);
   @override
-  Color get buttonDangerPrimary => Color.fromARGB(218, 30, 40, 255);
+  Color get buttonDangerPrimary => const Color.fromARGB(255, 218, 30, 40);
   @override
-  Color get buttonDangerSecondary => Color.fromARGB(218, 30, 40, 255);
+  Color get buttonDangerSecondary => const Color.fromARGB(255, 218, 30, 40);
   @override
-  Color get buttonDangerHover => Color.fromARGB(184, 25, 34, 255);
+  Color get buttonDangerHover => const Color.fromARGB(255, 184, 25, 34);
   @override
-  Color get buttonDangerActive => Color.fromARGB(117, 14, 19, 255);
+  Color get buttonDangerActive => const Color.fromARGB(255, 117, 14, 19);
   @override
-  Color get buttonSeparator => Color.fromARGB(224, 224, 224, 255);
+  Color get buttonSeparator => const Color.fromARGB(255, 224, 224, 224);
   @override
-  Color get buttonDisabled => Color.fromARGB(198, 198, 198, 255);
+  Color get buttonDisabled => const Color.fromARGB(255, 198, 198, 198);
   @override
-  Color get supportError => Color.fromARGB(218, 30, 40, 255);
+  Color get supportError => const Color.fromARGB(255, 218, 30, 40);
   @override
-  Color get supportSuccess => Color.fromARGB(36, 161, 72, 255);
+  Color get supportSuccess => const Color.fromARGB(255, 36, 161, 72);
   @override
-  Color get supportWarning => Color.fromARGB(241, 194, 27, 255);
+  Color get supportWarning => const Color.fromARGB(255, 241, 194, 27);
   @override
-  Color get supportInfo => Color.fromARGB(0, 67, 206, 255);
+  Color get supportInfo => const Color.fromARGB(255, 0, 67, 206);
   @override
-  Color get supportErrorInverse => Color.fromARGB(250, 77, 86, 255);
+  Color get supportErrorInverse => const Color.fromARGB(255, 250, 77, 86);
   @override
-  Color get supportSuccessInverse => Color.fromARGB(66, 190, 101, 255);
+  Color get supportSuccessInverse => const Color.fromARGB(255, 66, 190, 101);
   @override
-  Color get supportWarningInverse => Color.fromARGB(241, 194, 27, 255);
+  Color get supportWarningInverse => const Color.fromARGB(255, 241, 194, 27);
   @override
-  Color get supportInfoInverse => Color.fromARGB(69, 137, 255, 255);
+  Color get supportInfoInverse => const Color.fromARGB(255, 69, 137, 255);
   @override
-  Color get supportCautionMajor => Color.fromARGB(255, 131, 43, 255);
+  Color get supportCautionMajor => const Color.fromARGB(255, 255, 131, 43);
   @override
-  Color get supportCautionMinor => Color.fromARGB(241, 194, 27, 255);
+  Color get supportCautionMinor => const Color.fromARGB(255, 241, 194, 27);
   @override
-  Color get supportUndefined => Color.fromARGB(138, 63, 252, 255);
+  Color get supportUndefined => const Color.fromARGB(255, 138, 63, 252);
   @override
-  Color get focus => Color.fromARGB(15, 98, 254, 255);
+  Color get focus => const Color.fromARGB(255, 15, 98, 254);
   @override
-  Color get focusInset => Color.fromARGB(255, 255, 255, 255);
+  Color get focusInset => const Color.fromARGB(255, 255, 255, 255);
   @override
-  Color get focusInverse => Color.fromARGB(255, 255, 255, 255);
+  Color get focusInverse => const Color.fromARGB(255, 255, 255, 255);
   @override
-  Color get interactive => Color.fromARGB(15, 98, 254, 255);
+  Color get interactive => const Color.fromARGB(255, 15, 98, 254);
   @override
-  Color get highlight => Color.fromARGB(208, 226, 255, 255);
+  Color get highlight => const Color.fromARGB(255, 208, 226, 255);
   @override
-  Color get toggleOff => Color.fromARGB(141, 141, 141, 255);
+  Color get toggleOff => const Color.fromARGB(255, 141, 141, 141);
   @override
-  Color get overlay => Color.fromARGB(22, 22, 22, 127);
+  Color get overlay => const Color.fromARGB(127, 22, 22, 22);
   @override
-  Color get skeletonElement => Color.fromARGB(198, 198, 198, 255);
+  Color get skeletonElement => const Color.fromARGB(255, 198, 198, 198);
   @override
-  Color get skeletonBackground => Color.fromARGB(232, 232, 232, 255);
+  Color get skeletonBackground => const Color.fromARGB(255, 232, 232, 232);
   @override
-  Color get notificationInfoBackground => Color.fromARGB(237, 245, 255, 255);
+  Color get notificationInfoBackground => const Color.fromARGB(255, 237, 245, 255);
   @override
-  Color get notificationInfoBorder => Color.fromARGB(0, 67, 206, 76);
+  Color get notificationInfoBorder => const Color.fromARGB(76, 0, 67, 206);
   @override
-  Color get notificationSuccessBackground => Color.fromARGB(222, 251, 230, 255);
+  Color get notificationSuccessBackground => const Color.fromARGB(255, 222, 251, 230);
   @override
-  Color get notificationSuccessBorder => Color.fromARGB(36, 161, 72, 76);
+  Color get notificationSuccessBorder => const Color.fromARGB(76, 36, 161, 72);
   @override
-  Color get notificationErrorBackground => Color.fromARGB(255, 241, 241, 255);
+  Color get notificationErrorBackground => const Color.fromARGB(255, 255, 241, 241);
   @override
-  Color get notificationErrorBorder => Color.fromARGB(218, 30, 40, 76);
+  Color get notificationErrorBorder => const Color.fromARGB(76, 218, 30, 40);
   @override
-  Color get notificationWarningBackground => Color.fromARGB(252, 244, 214, 255);
+  Color get notificationWarningBackground => const Color.fromARGB(255, 252, 244, 214);
   @override
-  Color get notificationWarningBorder => Color.fromARGB(241, 194, 27, 76);
+  Color get notificationWarningBorder => const Color.fromARGB(76, 241, 194, 27);
   @override
-  Color get notificationActionHover => Color.fromARGB(255, 255, 255, 255);
+  Color get notificationActionHover => const Color.fromARGB(255, 255, 255, 255);
   @override
-  Color get notificationActionTertiaryInverse => Color.fromARGB(255, 255, 255, 255);
+  Color get notificationActionTertiaryInverse => const Color.fromARGB(255, 255, 255, 255);
   @override
-  Color get notificationActionTertiaryInverseText => Color.fromARGB(18, 22, 25, 255);
+  Color get notificationActionTertiaryInverseText => const Color.fromARGB(255, 18, 22, 25);
   @override
-  Color get notificationActionTertiaryInverseHover => Color.fromARGB(232, 232, 232, 255);
+  Color get notificationActionTertiaryInverseHover => const Color.fromARGB(255, 232, 232, 232);
   @override
-  Color get tagBlueTagBackground => Color.fromARGB(208, 226, 255, 255);
+  Color get tagBlueTagBackground => const Color.fromARGB(255, 208, 226, 255);
   @override
-  Color get tagBlueTagColor => Color.fromARGB(0, 67, 206, 255);
+  Color get tagBlueTagColor => const Color.fromARGB(255, 0, 67, 206);
   @override
-  Color get tagBlueTagHover => Color.fromARGB(184, 211, 255, 255);
+  Color get tagBlueTagHover => const Color.fromARGB(255, 184, 211, 255);
   @override
-  Color get tagBlueTagIcon => Color.fromARGB(0, 67, 206, 255);
+  Color get tagBlueTagIcon => const Color.fromARGB(255, 0, 67, 206);
   @override
-  Color get tagBlueTagBackgroundDisabled => Color.fromARGB(244, 244, 244, 255);
+  Color get tagBlueTagBackgroundDisabled => const Color.fromARGB(255, 244, 244, 244);
   @override
-  Color get tagBlueTagBorder => Color.fromARGB(255, 255, 255, 0);
+  Color get tagBlueTagBorder => const Color.fromARGB(0, 255, 255, 255);
   @override
-  Color get tagBlueTagFocus => Color.fromARGB(15, 98, 254, 255);
+  Color get tagBlueTagFocus => const Color.fromARGB(255, 15, 98, 254);
   @override
-  Color get tagBlueTagBorderDisabled => Color.fromARGB(255, 255, 255, 0);
+  Color get tagBlueTagBorderDisabled => const Color.fromARGB(0, 255, 255, 255);
   @override
-  Color get tagCyanTagBackground => Color.fromARGB(186, 230, 255, 255);
+  Color get tagCyanTagBackground => const Color.fromARGB(255, 186, 230, 255);
   @override
-  Color get tagCyanTagColor => Color.fromARGB(0, 83, 154, 255);
+  Color get tagCyanTagColor => const Color.fromARGB(255, 0, 83, 154);
   @override
-  Color get tagCyanTagHover => Color.fromARGB(153, 218, 255, 255);
+  Color get tagCyanTagHover => const Color.fromARGB(255, 153, 218, 255);
   @override
-  Color get tagCyanTagIcon => Color.fromARGB(0, 83, 154, 255);
+  Color get tagCyanTagIcon => const Color.fromARGB(255, 0, 83, 154);
   @override
-  Color get tagCyanTagBackgroundDisabled => Color.fromARGB(244, 244, 244, 255);
+  Color get tagCyanTagBackgroundDisabled => const Color.fromARGB(255, 244, 244, 244);
   @override
-  Color get tagCyanTagBorder => Color.fromARGB(255, 255, 255, 0);
+  Color get tagCyanTagBorder => const Color.fromARGB(0, 255, 255, 255);
   @override
-  Color get tagCyanTagFocus => Color.fromARGB(15, 98, 254, 255);
+  Color get tagCyanTagFocus => const Color.fromARGB(255, 15, 98, 254);
   @override
-  Color get tagCyanTagBorderDisabled => Color.fromARGB(255, 255, 255, 0);
+  Color get tagCyanTagBorderDisabled => const Color.fromARGB(0, 255, 255, 255);
   @override
-  Color get tagTealTagBackground => Color.fromARGB(158, 240, 240, 255);
+  Color get tagTealTagBackground => const Color.fromARGB(255, 158, 240, 240);
   @override
-  Color get tagTealTagColor => Color.fromARGB(0, 93, 93, 255);
+  Color get tagTealTagColor => const Color.fromARGB(255, 0, 93, 93);
   @override
-  Color get tagTealTagHover => Color.fromARGB(87, 229, 229, 255);
+  Color get tagTealTagHover => const Color.fromARGB(255, 87, 229, 229);
   @override
-  Color get tagTealTagIcon => Color.fromARGB(0, 93, 93, 255);
+  Color get tagTealTagIcon => const Color.fromARGB(255, 0, 93, 93);
   @override
-  Color get tagTealTagBackgroundDisabled => Color.fromARGB(244, 244, 244, 255);
+  Color get tagTealTagBackgroundDisabled => const Color.fromARGB(255, 244, 244, 244);
   @override
-  Color get tagTealTagBorder => Color.fromARGB(255, 255, 255, 0);
+  Color get tagTealTagBorder => const Color.fromARGB(0, 255, 255, 255);
   @override
-  Color get tagTealTagFocus => Color.fromARGB(15, 98, 254, 255);
+  Color get tagTealTagFocus => const Color.fromARGB(255, 15, 98, 254);
   @override
-  Color get tagTealTagBorderDisabled => Color.fromARGB(255, 255, 255, 0);
+  Color get tagTealTagBorderDisabled => const Color.fromARGB(0, 255, 255, 255);
   @override
-  Color get tagGreenTagBackground => Color.fromARGB(167, 240, 186, 255);
+  Color get tagGreenTagBackground => const Color.fromARGB(255, 167, 240, 186);
   @override
-  Color get tagGreenTagColor => Color.fromARGB(14, 96, 39, 255);
+  Color get tagGreenTagColor => const Color.fromARGB(255, 14, 96, 39);
   @override
-  Color get tagGreenTagHover => Color.fromARGB(116, 231, 146, 255);
+  Color get tagGreenTagHover => const Color.fromARGB(255, 116, 231, 146);
   @override
-  Color get tagGreenTagIcon => Color.fromARGB(14, 96, 39, 255);
+  Color get tagGreenTagIcon => const Color.fromARGB(255, 14, 96, 39);
   @override
-  Color get tagGreenTagBackgroundDisabled => Color.fromARGB(244, 244, 244, 255);
+  Color get tagGreenTagBackgroundDisabled => const Color.fromARGB(255, 244, 244, 244);
   @override
-  Color get tagGreenTagBorder => Color.fromARGB(255, 255, 255, 0);
+  Color get tagGreenTagBorder => const Color.fromARGB(0, 255, 255, 255);
   @override
-  Color get tagGreenTagFocus => Color.fromARGB(15, 98, 254, 255);
+  Color get tagGreenTagFocus => const Color.fromARGB(255, 15, 98, 254);
   @override
-  Color get tagGreenTagBorderDisabled => Color.fromARGB(255, 255, 255, 0);
+  Color get tagGreenTagBorderDisabled => const Color.fromARGB(0, 255, 255, 255);
   @override
-  Color get tagPurpleTagBackground => Color.fromARGB(232, 218, 255, 255);
+  Color get tagPurpleTagBackground => const Color.fromARGB(255, 232, 218, 255);
   @override
-  Color get tagPurpleTagColor => Color.fromARGB(105, 41, 196, 255);
+  Color get tagPurpleTagColor => const Color.fromARGB(255, 105, 41, 196);
   @override
-  Color get tagPurpleTagHover => Color.fromARGB(220, 199, 255, 255);
+  Color get tagPurpleTagHover => const Color.fromARGB(255, 220, 199, 255);
   @override
-  Color get tagPurpleTagIcon => Color.fromARGB(105, 41, 196, 255);
+  Color get tagPurpleTagIcon => const Color.fromARGB(255, 105, 41, 196);
   @override
-  Color get tagPurpleTagBackgroundDisabled => Color.fromARGB(244, 244, 244, 255);
+  Color get tagPurpleTagBackgroundDisabled => const Color.fromARGB(255, 244, 244, 244);
   @override
-  Color get tagPurpleTagBorder => Color.fromARGB(255, 255, 255, 0);
+  Color get tagPurpleTagBorder => const Color.fromARGB(0, 255, 255, 255);
   @override
-  Color get tagPurpleTagFocus => Color.fromARGB(15, 98, 254, 255);
+  Color get tagPurpleTagFocus => const Color.fromARGB(255, 15, 98, 254);
   @override
-  Color get tagPurpleTagBorderDisabled => Color.fromARGB(255, 255, 255, 0);
+  Color get tagPurpleTagBorderDisabled => const Color.fromARGB(0, 255, 255, 255);
   @override
-  Color get tagMagentaTagBackground => Color.fromARGB(255, 214, 232, 255);
+  Color get tagMagentaTagBackground => const Color.fromARGB(255, 255, 214, 232);
   @override
-  Color get tagMagentaTagColor => Color.fromARGB(159, 24, 83, 255);
+  Color get tagMagentaTagColor => const Color.fromARGB(255, 159, 24, 83);
   @override
-  Color get tagMagentaTagHover => Color.fromARGB(255, 189, 218, 255);
+  Color get tagMagentaTagHover => const Color.fromARGB(255, 255, 189, 218);
   @override
-  Color get tagMagentaTagIcon => Color.fromARGB(159, 24, 83, 255);
+  Color get tagMagentaTagIcon => const Color.fromARGB(255, 159, 24, 83);
   @override
-  Color get tagMagentaTagBackgroundDisabled => Color.fromARGB(244, 244, 244, 255);
+  Color get tagMagentaTagBackgroundDisabled => const Color.fromARGB(255, 244, 244, 244);
   @override
-  Color get tagMagentaTagBorder => Color.fromARGB(255, 255, 255, 0);
+  Color get tagMagentaTagBorder => const Color.fromARGB(0, 255, 255, 255);
   @override
-  Color get tagMagentaTagFocus => Color.fromARGB(15, 98, 254, 255);
+  Color get tagMagentaTagFocus => const Color.fromARGB(255, 15, 98, 254);
   @override
-  Color get tagMagentaTagBorderDisabled => Color.fromARGB(255, 255, 255, 0);
+  Color get tagMagentaTagBorderDisabled => const Color.fromARGB(0, 255, 255, 255);
   @override
-  Color get tagRedTagBackground => Color.fromARGB(255, 215, 217, 255);
+  Color get tagRedTagBackground => const Color.fromARGB(255, 255, 215, 217);
   @override
-  Color get tagRedTagColor => Color.fromARGB(162, 25, 31, 255);
+  Color get tagRedTagColor => const Color.fromARGB(255, 162, 25, 31);
   @override
-  Color get tagRedTagHover => Color.fromARGB(255, 194, 197, 255);
+  Color get tagRedTagHover => const Color.fromARGB(255, 255, 194, 197);
   @override
-  Color get tagRedTagIcon => Color.fromARGB(162, 25, 31, 255);
+  Color get tagRedTagIcon => const Color.fromARGB(255, 162, 25, 31);
   @override
-  Color get tagRedTagBackgroundDisabled => Color.fromARGB(244, 244, 244, 255);
+  Color get tagRedTagBackgroundDisabled => const Color.fromARGB(255, 244, 244, 244);
   @override
-  Color get tagRedTagBorder => Color.fromARGB(255, 255, 255, 0);
+  Color get tagRedTagBorder => const Color.fromARGB(0, 255, 255, 255);
   @override
-  Color get tagRedTagFocus => Color.fromARGB(15, 98, 254, 255);
+  Color get tagRedTagFocus => const Color.fromARGB(255, 15, 98, 254);
   @override
-  Color get tagRedTagBorderDisabled => Color.fromARGB(255, 255, 255, 0);
+  Color get tagRedTagBorderDisabled => const Color.fromARGB(0, 255, 255, 255);
   @override
-  Color get tagOrangeTagBackground => Color.fromARGB(255, 217, 190, 255);
+  Color get tagOrangeTagBackground => const Color.fromARGB(255, 255, 217, 190);
   @override
-  Color get tagOrangeTagColor => Color.fromARGB(138, 56, 0, 255);
+  Color get tagOrangeTagColor => const Color.fromARGB(255, 138, 56, 0);
   @override
-  Color get tagOrangeTagHover => Color.fromARGB(255, 198, 158, 255);
+  Color get tagOrangeTagHover => const Color.fromARGB(255, 255, 198, 158);
   @override
-  Color get tagOrangeTagIcon => Color.fromARGB(138, 56, 0, 255);
+  Color get tagOrangeTagIcon => const Color.fromARGB(255, 138, 56, 0);
   @override
-  Color get tagOrangeTagBackgroundDisabled => Color.fromARGB(244, 244, 244, 255);
+  Color get tagOrangeTagBackgroundDisabled => const Color.fromARGB(255, 244, 244, 244);
   @override
-  Color get tagOrangeTagBorder => Color.fromARGB(255, 255, 255, 0);
+  Color get tagOrangeTagBorder => const Color.fromARGB(0, 255, 255, 255);
   @override
-  Color get tagOrangeTagFocus => Color.fromARGB(15, 98, 254, 255);
+  Color get tagOrangeTagFocus => const Color.fromARGB(255, 15, 98, 254);
   @override
-  Color get tagOrangeTagBorderDisabled => Color.fromARGB(255, 255, 255, 0);
+  Color get tagOrangeTagBorderDisabled => const Color.fromARGB(0, 255, 255, 255);
   @override
-  Color get tagYellowTagBackground => Color.fromARGB(253, 220, 105, 255);
+  Color get tagYellowTagBackground => const Color.fromARGB(255, 253, 220, 105);
   @override
-  Color get tagYellowTagColor => Color.fromARGB(104, 78, 0, 255);
+  Color get tagYellowTagColor => const Color.fromARGB(255, 104, 78, 0);
   @override
-  Color get tagYellowTagHover => Color.fromARGB(252, 205, 39, 255);
+  Color get tagYellowTagHover => const Color.fromARGB(255, 252, 205, 39);
   @override
-  Color get tagYellowTagIcon => Color.fromARGB(104, 78, 0, 255);
+  Color get tagYellowTagIcon => const Color.fromARGB(255, 104, 78, 0);
   @override
-  Color get tagYellowTagBackgroundDisabled => Color.fromARGB(244, 244, 244, 255);
+  Color get tagYellowTagBackgroundDisabled => const Color.fromARGB(255, 244, 244, 244);
   @override
-  Color get tagYellowTagBorder => Color.fromARGB(255, 255, 255, 0);
+  Color get tagYellowTagBorder => const Color.fromARGB(0, 255, 255, 255);
   @override
-  Color get tagYellowTagFocus => Color.fromARGB(15, 98, 254, 255);
+  Color get tagYellowTagFocus => const Color.fromARGB(255, 15, 98, 254);
   @override
-  Color get tagYellowTagBorderDisabled => Color.fromARGB(255, 255, 255, 0);
+  Color get tagYellowTagBorderDisabled => const Color.fromARGB(0, 255, 255, 255);
   @override
-  Color get tagGrayTagBackground => Color.fromARGB(224, 224, 224, 255);
+  Color get tagGrayTagBackground => const Color.fromARGB(255, 224, 224, 224);
   @override
-  Color get tagGrayTagColor => Color.fromARGB(22, 22, 22, 255);
+  Color get tagGrayTagColor => const Color.fromARGB(255, 22, 22, 22);
   @override
-  Color get tagGrayTagHover => Color.fromARGB(209, 209, 209, 255);
+  Color get tagGrayTagHover => const Color.fromARGB(255, 209, 209, 209);
   @override
-  Color get tagGrayTagIcon => Color.fromARGB(22, 22, 22, 255);
+  Color get tagGrayTagIcon => const Color.fromARGB(255, 22, 22, 22);
   @override
-  Color get tagGrayTagBackgroundDisabled => Color.fromARGB(244, 244, 244, 255);
+  Color get tagGrayTagBackgroundDisabled => const Color.fromARGB(255, 244, 244, 244);
   @override
-  Color get tagGrayTagBorder => Color.fromARGB(255, 255, 255, 0);
+  Color get tagGrayTagBorder => const Color.fromARGB(0, 255, 255, 255);
   @override
-  Color get tagGrayTagFocus => Color.fromARGB(15, 98, 254, 255);
+  Color get tagGrayTagFocus => const Color.fromARGB(255, 15, 98, 254);
   @override
-  Color get tagGrayTagBorderDisabled => Color.fromARGB(255, 255, 255, 0);
+  Color get tagGrayTagBorderDisabled => const Color.fromARGB(0, 255, 255, 255);
   @override
-  Color get tagCoolGrayTagBackground => Color.fromARGB(221, 225, 230, 255);
+  Color get tagCoolGrayTagBackground => const Color.fromARGB(255, 221, 225, 230);
   @override
-  Color get tagCoolGrayTagColor => Color.fromARGB(18, 22, 25, 255);
+  Color get tagCoolGrayTagColor => const Color.fromARGB(255, 18, 22, 25);
   @override
-  Color get tagCoolGrayTagHover => Color.fromARGB(205, 211, 218, 255);
+  Color get tagCoolGrayTagHover => const Color.fromARGB(255, 205, 211, 218);
   @override
-  Color get tagCoolGrayTagIcon => Color.fromARGB(18, 22, 25, 255);
+  Color get tagCoolGrayTagIcon => const Color.fromARGB(255, 18, 22, 25);
   @override
-  Color get tagCoolGrayTagBackgroundDisabled => Color.fromARGB(244, 244, 244, 255);
+  Color get tagCoolGrayTagBackgroundDisabled => const Color.fromARGB(255, 244, 244, 244);
   @override
-  Color get tagCoolGrayTagBorder => Color.fromARGB(255, 255, 255, 0);
+  Color get tagCoolGrayTagBorder => const Color.fromARGB(0, 255, 255, 255);
   @override
-  Color get tagCoolGrayTagFocus => Color.fromARGB(15, 98, 254, 255);
+  Color get tagCoolGrayTagFocus => const Color.fromARGB(255, 15, 98, 254);
   @override
-  Color get tagCoolGrayTagBorderDisabled => Color.fromARGB(255, 255, 255, 0);
+  Color get tagCoolGrayTagBorderDisabled => const Color.fromARGB(0, 255, 255, 255);
   @override
-  Color get tagWarmGrayTagBackground => Color.fromARGB(229, 224, 223, 255);
+  Color get tagWarmGrayTagBackground => const Color.fromARGB(255, 229, 224, 223);
   @override
-  Color get tagWarmGrayTagColor => Color.fromARGB(23, 20, 20, 255);
+  Color get tagWarmGrayTagColor => const Color.fromARGB(255, 23, 20, 20);
   @override
-  Color get tagWarmGrayTagHover => Color.fromARGB(216, 208, 207, 255);
+  Color get tagWarmGrayTagHover => const Color.fromARGB(255, 216, 208, 207);
   @override
-  Color get tagWarmGrayTagIcon => Color.fromARGB(23, 20, 20, 255);
+  Color get tagWarmGrayTagIcon => const Color.fromARGB(255, 23, 20, 20);
   @override
-  Color get tagWarmGrayTagBackgroundDisabled => Color.fromARGB(244, 244, 244, 255);
+  Color get tagWarmGrayTagBackgroundDisabled => const Color.fromARGB(255, 244, 244, 244);
   @override
-  Color get tagWarmGrayTagBorder => Color.fromARGB(255, 255, 255, 0);
+  Color get tagWarmGrayTagBorder => const Color.fromARGB(0, 255, 255, 255);
   @override
-  Color get tagWarmGrayTagFocus => Color.fromARGB(15, 98, 254, 255);
+  Color get tagWarmGrayTagFocus => const Color.fromARGB(255, 15, 98, 254);
   @override
-  Color get tagWarmGrayTagBorderDisabled => Color.fromARGB(255, 255, 255, 0);
+  Color get tagWarmGrayTagBorderDisabled => const Color.fromARGB(0, 255, 255, 255);
   @override
-  Color get tagHighContrastTagBackground => Color.fromARGB(57, 57, 57, 255);
+  Color get tagHighContrastTagBackground => const Color.fromARGB(255, 57, 57, 57);
   @override
-  Color get tagHighContrastTagColor => Color.fromARGB(255, 255, 255, 255);
+  Color get tagHighContrastTagColor => const Color.fromARGB(255, 255, 255, 255);
   @override
-  Color get tagHighContrastTagHover => Color.fromARGB(71, 71, 71, 255);
+  Color get tagHighContrastTagHover => const Color.fromARGB(255, 71, 71, 71);
   @override
-  Color get tagHighContrastTagIcon => Color.fromARGB(255, 255, 255, 255);
+  Color get tagHighContrastTagIcon => const Color.fromARGB(255, 255, 255, 255);
   @override
-  Color get tagHighContrastTagBackgroundDisabled => Color.fromARGB(244, 244, 244, 255);
+  Color get tagHighContrastTagBackgroundDisabled => const Color.fromARGB(255, 244, 244, 244);
   @override
-  Color get tagHighContrastTagBorder => Color.fromARGB(255, 255, 255, 0);
+  Color get tagHighContrastTagBorder => const Color.fromARGB(0, 255, 255, 255);
   @override
-  Color get tagHighContrastTagFocus => Color.fromARGB(255, 255, 255, 255);
+  Color get tagHighContrastTagFocus => const Color.fromARGB(255, 255, 255, 255);
   @override
-  Color get tagHighContrastTagBorderDisabled => Color.fromARGB(255, 255, 255, 0);
+  Color get tagHighContrastTagBorderDisabled => const Color.fromARGB(0, 255, 255, 255);
   @override
-  Color get whiteInLightThemes => Color.fromARGB(255, 255, 255, 255);
+  Color get whiteInLightThemes => const Color.fromARGB(255, 255, 255, 255);
   @override
-  Color get blackInLightThemes => Color.fromARGB(0, 0, 0, 255);
+  Color get blackInLightThemes => const Color.fromARGB(255, 0, 0, 0);
   @override
-  Color get carbonForIbmProducts => Color.fromARGB(255, 255, 255, 255);
+  Color get carbonForIbmProducts => const Color.fromARGB(255, 255, 255, 255);
   @override
-  Color get c4ipLightCyan => Color.fromARGB(0, 114, 195, 255);
+  Color get c4ipLightCyan => const Color.fromARGB(255, 0, 114, 195);
   @override
-  Color get c4ipLightGray => Color.fromARGB(111, 111, 111, 255);
+  Color get c4ipLightGray => const Color.fromARGB(255, 111, 111, 111);
   @override
-  Color get c4ipLightGreen => Color.fromARGB(25, 128, 56, 255);
+  Color get c4ipLightGreen => const Color.fromARGB(255, 25, 128, 56);
   @override
-  Color get c4ipLightMagenta => Color.fromARGB(208, 38, 112, 255);
+  Color get c4ipLightMagenta => const Color.fromARGB(255, 208, 38, 112);
   @override
-  Color get c4ipLightPurple => Color.fromARGB(138, 63, 252, 255);
+  Color get c4ipLightPurple => const Color.fromARGB(255, 138, 63, 252);
   @override
-  Color get c4ipLightTeal => Color.fromARGB(0, 125, 121, 255);
+  Color get c4ipLightTeal => const Color.fromARGB(255, 0, 125, 121);
   @override
-  Color get c4ipDarkCyan => Color.fromARGB(0, 58, 109, 255);
+  Color get c4ipDarkCyan => const Color.fromARGB(255, 0, 58, 109);
   @override
-  Color get c4ipDarkGray => Color.fromARGB(57, 57, 57, 255);
+  Color get c4ipDarkGray => const Color.fromARGB(255, 57, 57, 57);
   @override
-  Color get c4ipDarkGreen => Color.fromARGB(4, 67, 23, 255);
+  Color get c4ipDarkGreen => const Color.fromARGB(255, 4, 67, 23);
   @override
-  Color get c4ipDarkMagenta => Color.fromARGB(116, 9, 55, 255);
+  Color get c4ipDarkMagenta => const Color.fromARGB(255, 116, 9, 55);
   @override
-  Color get c4ipDarkPurple => Color.fromARGB(73, 29, 139, 255);
+  Color get c4ipDarkPurple => const Color.fromARGB(255, 73, 29, 139);
   @override
-  Color get c4ipDarkTeal => Color.fromARGB(0, 65, 68, 255);
+  Color get c4ipDarkTeal => const Color.fromARGB(255, 0, 65, 68);
   @override
-  Color get c4ipStatusFatal => Color.fromARGB(0, 0, 0, 255);
+  Color get c4ipStatusFatal => const Color.fromARGB(255, 0, 0, 0);
   @override
-  Color get c4ipStatusCritical => Color.fromARGB(218, 30, 40, 255);
+  Color get c4ipStatusCritical => const Color.fromARGB(255, 218, 30, 40);
   @override
-  Color get c4ipStatusMajorWarning => Color.fromARGB(255, 131, 43, 255);
+  Color get c4ipStatusMajorWarning => const Color.fromARGB(255, 255, 131, 43);
   @override
-  Color get c4ipStatusMinorWarning => Color.fromARGB(241, 194, 27, 255);
+  Color get c4ipStatusMinorWarning => const Color.fromARGB(255, 241, 194, 27);
   @override
-  Color get c4ipStatusUndefined => Color.fromARGB(138, 63, 252, 255);
+  Color get c4ipStatusUndefined => const Color.fromARGB(255, 138, 63, 252);
   @override
-  Color get c4ipStatusUnknown => Color.fromARGB(111, 111, 111, 255);
+  Color get c4ipStatusUnknown => const Color.fromARGB(255, 111, 111, 111);
   @override
-  Color get c4ipStatusNormal => Color.fromARGB(25, 128, 56, 255);
+  Color get c4ipStatusNormal => const Color.fromARGB(255, 25, 128, 56);
   @override
-  Color get c4ipStatusInfo => Color.fromARGB(15, 98, 254, 255);
+  Color get c4ipStatusInfo => const Color.fromARGB(255, 15, 98, 254);
   @override
-  Color get c4ipStatusInProgress => Color.fromARGB(15, 98, 254, 255);
+  Color get c4ipStatusInProgress => const Color.fromARGB(255, 15, 98, 254);
   @override
-  Color get c4ipStatusRunning => Color.fromARGB(25, 128, 56, 255);
+  Color get c4ipStatusRunning => const Color.fromARGB(255, 25, 128, 56);
   @override
-  Color get c4ipStatusPending => Color.fromARGB(111, 111, 111, 255);
+  Color get c4ipStatusPending => const Color.fromARGB(255, 111, 111, 111);
   @override
-  Color get tagOutlineTagBackground => Color.fromARGB(255, 255, 255, 255);
+  Color get tagOutlineTagBackground => const Color.fromARGB(255, 255, 255, 255);
   @override
-  Color get tagOutlineTagColor => Color.fromARGB(22, 22, 22, 255);
+  Color get tagOutlineTagColor => const Color.fromARGB(255, 22, 22, 22);
   @override
-  Color get tagOutlineTagHover => Color.fromARGB(141, 141, 141, 30);
+  Color get tagOutlineTagHover => const Color.fromARGB(30, 141, 141, 141);
   @override
-  Color get tagOutlineTagIcon => Color.fromARGB(22, 22, 22, 255);
+  Color get tagOutlineTagIcon => const Color.fromARGB(255, 22, 22, 22);
   @override
-  Color get tagOutlineTagBackgroundDisabled => Color.fromARGB(255, 255, 255, 255);
+  Color get tagOutlineTagBackgroundDisabled => const Color.fromARGB(255, 255, 255, 255);
   @override
-  Color get tagOutlineTagBorder => Color.fromARGB(22, 22, 22, 255);
+  Color get tagOutlineTagBorder => const Color.fromARGB(255, 22, 22, 22);
   @override
-  Color get tagOutlineTagFocus => Color.fromARGB(15, 98, 254, 255);
+  Color get tagOutlineTagFocus => const Color.fromARGB(255, 15, 98, 254);
   @override
-  Color get tagOutlineTagBorderDisabled => Color.fromARGB(198, 198, 198, 255);
+  Color get tagOutlineTagBorderDisabled => const Color.fromARGB(255, 198, 198, 198);
   @override
-  Color get ganttChartLibraryBlueGanttTagGroupBackground => Color.fromARGB(237, 245, 255, 255);
+  Color get ganttChartLibraryBlueGanttTagGroupBackground => const Color.fromARGB(255, 237, 245, 255);
   @override
-  Color get ganttChartLibraryCyanGanttTagGroupBackground => Color.fromARGB(229, 246, 255, 255);
+  Color get ganttChartLibraryCyanGanttTagGroupBackground => const Color.fromARGB(255, 229, 246, 255);
   @override
-  Color get ganttChartLibraryTealGanttTagGroupBackground => Color.fromARGB(217, 251, 251, 255);
+  Color get ganttChartLibraryTealGanttTagGroupBackground => const Color.fromARGB(255, 217, 251, 251);
   @override
-  Color get ganttChartLibraryGreenGanttTagGroupBackground => Color.fromARGB(222, 251, 230, 255);
+  Color get ganttChartLibraryGreenGanttTagGroupBackground => const Color.fromARGB(255, 222, 251, 230);
   @override
-  Color get ganttChartLibraryPurpleGanttTagGroupBackground => Color.fromARGB(246, 242, 255, 255);
+  Color get ganttChartLibraryPurpleGanttTagGroupBackground => const Color.fromARGB(255, 246, 242, 255);
   @override
-  Color get ganttChartLibraryMagentaGanttTagGroupBackground => Color.fromARGB(255, 240, 247, 255);
+  Color get ganttChartLibraryMagentaGanttTagGroupBackground => const Color.fromARGB(255, 255, 240, 247);
   @override
-  Color get ganttChartLibraryRedGanttTagGroupBackground => Color.fromARGB(255, 241, 241, 255);
+  Color get ganttChartLibraryRedGanttTagGroupBackground => const Color.fromARGB(255, 255, 241, 241);
   @override
-  Color get ganttChartLibraryOrangeGanttTagGroupBackground => Color.fromARGB(255, 242, 232, 255);
+  Color get ganttChartLibraryOrangeGanttTagGroupBackground => const Color.fromARGB(255, 255, 242, 232);
   @override
-  Color get ganttChartLibraryYellowGanttTagGroupBackground => Color.fromARGB(252, 244, 214, 255);
+  Color get ganttChartLibraryYellowGanttTagGroupBackground => const Color.fromARGB(255, 252, 244, 214);
   @override
-  Color get ganttChartLibraryGrayGanttTagGroupBackground => Color.fromARGB(224, 224, 224, 255);
+  Color get ganttChartLibraryGrayGanttTagGroupBackground => const Color.fromARGB(255, 224, 224, 224);
   @override
-  Color get ganttChartLibraryCoolGrayGanttTagGroupBackground => Color.fromARGB(221, 225, 230, 255);
+  Color get ganttChartLibraryCoolGrayGanttTagGroupBackground => const Color.fromARGB(255, 221, 225, 230);
   @override
-  Color get ganttChartLibraryWarmGrayGanttTagGroupBackground => Color.fromARGB(229, 224, 223, 255);
+  Color get ganttChartLibraryWarmGrayGanttTagGroupBackground => const Color.fromARGB(255, 229, 224, 223);
   @override
-  Color get ganttChartLibraryHighContrastGanttTagGroupBackground => Color.fromARGB(57, 57, 57, 255);
+  Color get ganttChartLibraryHighContrastGanttTagGroupBackground => const Color.fromARGB(255, 57, 57, 57);
   @override
-  Color get ganttChartLibraryOutlineGanttTagGroupBackground => Color.fromARGB(255, 255, 255, 255);
+  Color get ganttChartLibraryOutlineGanttTagGroupBackground => const Color.fromARGB(255, 255, 255, 255);
 }
