@@ -2,15 +2,15 @@ import 'package:carbon_design_system/carbon_design_system.dart';
 import 'package:flutter/material.dart';
 
 class ContainedListItem extends StatelessWidget {
-  const ContainedListItem(
-    this.text, {
+  const ContainedListItem({
+    required this.child,
     super.key,
     this.onTap,
     this.isLast = false,
     this.isSelected = false,
   });
 
-  final String text;
+  final Widget child;
   final VoidCallback? onTap;
   final bool isLast;
   final bool isSelected;
@@ -39,10 +39,7 @@ class ContainedListItem extends StatelessWidget {
                     )
                   : null,
             ),
-            child: Text(
-              text,
-              style: context.body01.copyWith(color: context.colors.textPrimary),
-            ),
+            child: child,
           ),
         ),
       ),

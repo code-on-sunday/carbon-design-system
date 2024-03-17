@@ -7,11 +7,13 @@ class PrimaryButton extends StatelessWidget {
     required this.onTap,
     this.icon,
     super.key,
+    this.size = ButtonSize.large,
   });
 
   final String text;
   final IconData? icon;
   final void Function()? onTap;
+  final ButtonSize size;
 
   @override
   Widget build(BuildContext context) {
@@ -22,7 +24,7 @@ class PrimaryButton extends StatelessWidget {
         highlightColor: context.colors.buttonPrimaryActive,
         onTap: onTap,
         child: SizedBox(
-          height: 48,
+          height: size.height,
           child: Padding(
             padding: const EdgeInsets.only(
               left: 16,
