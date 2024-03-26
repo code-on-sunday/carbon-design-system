@@ -13,6 +13,7 @@ class TertiaryButton extends StatelessWidget {
 
   static Widget create({
     required String text,
+    Key? key,
     IconData? icon,
     void Function()? onTap,
   }) {
@@ -21,6 +22,7 @@ class TertiaryButton extends StatelessWidget {
       child: Builder(
         builder: (context) {
           return TertiaryButton(
+            key: key,
             text: text,
             icon: icon,
             onTap: onTap,

@@ -1,3 +1,4 @@
+export 'ghost_button.dart';
 export 'ghost_icon_button.dart';
 export 'primary_button.dart';
 export 'primary_icon_button.dart';
